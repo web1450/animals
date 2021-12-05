@@ -1,0 +1,161 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Oxygen:wght@300;700&family=Satisfy&family=Slabo+27px&display=swap');
+/* this is the style for the body*/
+body{
+font-family: 'Oswald', sans-serif;
+color: #397bbd;
+background-color: white;
+background-repeat: no-repeat;
+}
+
+h1{
+		font-size: 4em;
+	}
+
+p{
+	line-height:2.0;
+}
+
+h1 {
+font-family: 'Oxygen', sans-serif;
+color:purple;
+	background-color: none;
+	text-align: center;
+	text-transform: Uppercase;
+	letter-spacing: 1px;
+}
+h2{
+	color:blue;
+	background-color: white;
+}
+
+
+.headline{
+	font-size:4em;
+}
+
+
+
+nav ul{
+	list-style-type: none;
+    text-align: center;
+    background-color: yellow;
+    padding: 15px 0;
+    margin-top:0;
+    border-top: #3c2730 2px solid;
+    border-bottom: #3c2730 2px solid;
+
+}
+
+
+
+nav li {
+	display: inline;
+	margin: 5px 10px;
+}
+nav a {
+	text-decoration: none;
+	
+}
+
+nav a:link{
+color:purple;
+}
+nav a:visited {
+color:purple;
+}
+nav a:hover  {
+color:orange;
+}
+nav a:active  {
+color:blue;
+}
+
+
+.home-hero{
+
+	background-image:url(images/rabbit.jpg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px; 
+}
+footer{
+	color:white;
+	background-color: #333333;
+	
+	
+	margin:40px 0 0 0;
+	display:block;
+}
+footer a:link{
+    color:#FEC2EB;
+}
+.footer-bottom{
+	background-color: black;
+	padding: 10px;
+	color: #FEC2EB;
+	text-align:center;
+}
+.icons .fa{
+    color: #FEC2EB;
+}
+.footer1000{
+	
+	padding: 40px 0 ;
+    color: #FEC2EB;
+    max-width:1000px;
+    margin:0 auto;
+    
+}
+
+.fa-camera-retro{
+	font-size: 100px;
+	text-align: center;
+	display:block;
+	margin-left: 40px;
+	margin-top: 10px;
+	color: #FEC2EB;
+	
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+.mobile{
+ 	display:none;
+ }
+
+@media only screen and (max-width: 500px) {
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display:block;
+	}
+}
